@@ -1,6 +1,7 @@
 package net.borodkir.templatemod.item;
 
 import net.borodkir.templatemod.TemplateMod;
+import net.borodkir.templatemod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(()-> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(Items.DIAMOND);
             }).build());
