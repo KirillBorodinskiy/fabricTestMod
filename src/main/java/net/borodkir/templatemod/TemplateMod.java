@@ -1,5 +1,7 @@
 package net.borodkir.templatemod;
 
+import net.borodkir.templatemod.item.ModItemGroups;
+import net.borodkir.templatemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,7 +15,8 @@ public class TemplateMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
