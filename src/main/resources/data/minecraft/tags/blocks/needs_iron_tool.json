@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "template-mod:ruby_block",
+    "template-mod:raw_ruby_block"
+  ]
+}

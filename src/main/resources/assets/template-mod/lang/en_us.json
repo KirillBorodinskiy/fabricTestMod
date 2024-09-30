@@ -1,11 +1,11 @@
 {
   "item.template-mod.ruby": "Ruby",
-  "item.template-mod.raw_ruby": "Raw_Ruby",
+  "item.template-mod.raw_ruby": "Raw Ruby",
 
 
   "itemgroup.ruby": "Ruby group",
 
 
   "block.template-mod.ruby_block": "Block of Ruby",
-  "block.template-mod.raw_ruby_block": "Block of raw Ruby"
+  "block.template-mod.raw_ruby_block": "Block of Raw Ruby"
 }
